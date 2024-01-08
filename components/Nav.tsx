@@ -1,5 +1,6 @@
 'use client';
 import Link from "next/link";
+import { ModeToggle } from "./ui/mode-toggle";
 
 
 const navItems = [
@@ -30,6 +31,7 @@ function Nav() {
               <Link key={link} href={link} className="rounded-full px-5 py-2 hover:bg-accent duration-300">{name}</Link>
             ))
           }
+          <ModeToggle />
         </div>
       </div>
     </nav>
