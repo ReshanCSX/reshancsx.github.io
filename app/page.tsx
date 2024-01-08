@@ -22,8 +22,8 @@ export default function Home() {
       
       <Card className="w-1/2">
         <CardHeader>
-          <CardTitle className={cn("text-center text-2xl text text-red-600", font.className)}>Hello!</CardTitle>
-          <CardDescription className="text-center py-4">I'm Reshan, and welcome to my portfolio. I'm a Marketer and a full-stack developer, and I love to solve puzzles.</CardDescription>
+          <CardTitle className={cn("text-center text-2xl text text-red-600", font.className)}>{'Hello!'}</CardTitle>
+          <CardDescription className="text-center py-4">{"I'm Reshan, and welcome to my portfolio. I'm a Marketer and a full-stack developer, and I love to solve puzzles."}</CardDescription>
         </CardHeader>
       </Card>
 
