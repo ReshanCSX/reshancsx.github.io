@@ -15,15 +15,3 @@ import config from '../../../sanity.config'
 export default function StudioPage() {
   return <NextStudio config={config} />
 }
-
-export async function getStaticPaths() {
-
-  return {
-    paths: [],
-    fallback: false
-  };
-}
-
-export function generateStaticParams() {
-  return [{ params: { index: [] } }];
-}
